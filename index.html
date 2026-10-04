@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML and CSS beginner example">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Website</h1>
+            <p class="subtitle">A simple HTML + CSS example</p>
+        </header>
+
+        <main>
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm learning HTML and CSS. This is my first webpage.</p>
+                <p>Here are some things I like:</p>
+                
+                <h3>My Interests:</h3>
+                <ul>
+                    <li>Coding</li>
+                    <li>Web Design</li>
+                    <li>Reading</li>
+                    <li>Music</li>
+                </ul>
+            </section>
+
+            <section class="gallery">
+                <h2>Photo Gallery</h2>
+                <div class="images">
+                    <img src="https://via.placeholder.com/200x150?text=Photo+1" alt="Photo 1">
+                    <img src="https://via.placeholder.com/200x150?text=Photo+2" alt="Photo 2">
+                    <img src="https://via.placeholder.com/200x150?text=Photo+3" alt="Photo 3">
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+            <section class="links">
+                <h2>Useful Links</h2>
+                <p>Visit these helpful resources:</p>
+                <ol>
+                    <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                    <li><a href="https://css-tricks.com">CSS-Tricks</a></li>
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 My First Website. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
